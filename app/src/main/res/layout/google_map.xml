@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/googleMap"
+        class="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="620dp" />
+
+
+    <android.widget.Button
+        android:id="@+id/goMain"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="650dp"
+        android:layout_marginRight="280dp"
+        android:background="#17671A"
+        android:text="게시판"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <android.widget.Button
+        android:id="@+id/goMap"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="650dp"
+        android:layout_marginRight="155dp"
+        android:background="#17671A"
+        android:text="지도"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <android.widget.Button
+        android:id="@+id/goInfo"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="650dp"
+        android:layout_marginRight="30dp"
+        android:background="#17671A"
+        android:text="정보보기"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</FrameLayout>
+
+
